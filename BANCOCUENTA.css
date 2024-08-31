@@ -1,0 +1,45 @@
+main{
+
+    display:grid;
+    grid-template-rows: .01fr 2fr 1.5fr;
+    background-image: url(https://img.freepik.com/fotos-premium/collage-diferentes-personas-felices-conjunto-retratos-positivos-masculinos-femeninos-jovenes-sonriendo-camara-sobre-fondos-coloridos-estudio_116547-12409.jpg);
+    background-size: 100%;
+    
+
+}
+
+
+
+
+nav{
+    
+    grid-row: 1/2;
+    
+  
+}
+
+
+
+
+
+.padre{
+
+    display: flex;
+    justify-content: center;
+    grid-row:2/3;
+    margin-top: 100px;
+    font-size: large;
+    
+
+}
+
+
+button{
+    margin-left: 80px;
+    margin-top: 20px;
+   
+}
+
+
+
+

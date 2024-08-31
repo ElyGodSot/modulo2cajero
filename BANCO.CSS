@@ -1,0 +1,83 @@
+main{
+
+    display:grid;
+    grid-template-rows: .01fr 2fr 1fr;
+    background-image: url(https://cojo.ru/wp-content/uploads/2022/12/sinii-fon-170.webp);
+    background-size: 100%;
+    
+
+}
+
+
+
+button{
+
+    font-size: medium;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+    
+
+}
+
+
+
+.cuentapadre{
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    
+   
+   
+    
+}
+
+.card{
+
+    grid-column: 1/2;
+    
+
+}
+
+.accionespadre{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ingresar-retirar{
+    
+    background-color:rgba(170, 187, 212, 0.788);
+    margin: 30px;
+    padding: 20px;
+    width:400px;
+    height: 300px;
+    grid-column: 2/2;
+    
+    
+}
+/*.retirar{
+    
+    background-color:rgba(170, 187, 212, 0.788);
+    margin: 30px;
+    padding: 20px;
+    width:400px;
+    height: 200px;
+    grid-column: 2/2;
+}*/
+.otro{
+    
+    background-color:rgba(60, 63, 65, 0.5);
+    margin: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:500px;
+    height: 300px;
+    grid-column: 2/2;
+}
+
