@@ -32,6 +32,6 @@ function saldo(){
 
 function salir(){
 
-  window.location.href="BANCOCUENTA.HTML";
+  window.location.href="index.html";
 }
 
